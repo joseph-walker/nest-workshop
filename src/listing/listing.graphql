@@ -1,0 +1,9 @@
+type Listing {
+    id: Int!
+    address: String!
+    propertyName: String!
+}
+
+type Query {
+    listing: Listing!
+}
